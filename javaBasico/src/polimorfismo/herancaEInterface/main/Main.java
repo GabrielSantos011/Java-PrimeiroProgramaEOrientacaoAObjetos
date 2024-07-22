@@ -2,6 +2,7 @@ package polimorfismo.herancaEInterface.main;
 
 import polimorfismo.herancaEInterface.entities.Funcionario;
 import polimorfismo.herancaEInterface.entities.Gerente;
+import polimorfismo.herancaEInterface.util.SomaTotalBonificacao;
 
 public class Main {
 
@@ -34,6 +35,26 @@ public class Main {
         System.out.println(g1.autentica("0987654"));
         System.out.println(g1.autentica("123"));
         System.out.println(g1.getBonificacao());
+
+        System.out.println("-------------------------------------------------------");
+
+        //testando o polimorfismo, explicação na classe SomaTotalBonificacao
+        SomaTotalBonificacao s = new SomaTotalBonificacao();
+
+        Funcionario f = new Funcionario();
+        f.setNome("aaaaa");
+        f.setCpf("11111111");
+        f.setSalario(1000.0);
+
+        Gerente g = new Gerente();
+        g.setNome("bbbbb");
+        g.setCpf("222222");
+        g.setSalario(5000.0);
+
+        s.registra(f);
+        s.registra(g);
+
+        System.out.println(s.getTotal());
 
     }
 
