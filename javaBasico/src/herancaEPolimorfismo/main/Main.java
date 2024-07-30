@@ -1,8 +1,8 @@
-package polimorfismo.herancaEInterface.main;
+package herancaEPolimorfismo.main;
 
-import polimorfismo.herancaEInterface.entities.Funcionario;
-import polimorfismo.herancaEInterface.entities.Gerente;
-import polimorfismo.herancaEInterface.util.SomaTotalBonificacao;
+import herancaEPolimorfismo.entities.Funcionario;
+import herancaEPolimorfismo.util.SomaTotalBonificacao;
+import herancaEPolimorfismo.entities.Gerente;
 
 public class Main {
 

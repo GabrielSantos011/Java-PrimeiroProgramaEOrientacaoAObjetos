@@ -1,7 +1,7 @@
-package polimorfismo.herancaEInterface.util;
+package herancaEPolimorfismo.util;
 
-import polimorfismo.herancaEInterface.entities.Funcionario;
-import polimorfismo.herancaEInterface.entities.Gerente;
+import herancaEPolimorfismo.entities.Funcionario;
+import herancaEPolimorfismo.entities.Gerente;
 
 public class SomaTotalBonificacao {
 

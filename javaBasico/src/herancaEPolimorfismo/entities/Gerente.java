@@ -1,4 +1,4 @@
-package polimorfismo.herancaEInterface.entities;
+package herancaEPolimorfismo.entities;
 
 //herança - classe filha
 //Gerente deve ter todos os atributos e métodos que Funcionario tem,

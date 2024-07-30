@@ -1,4 +1,4 @@
-package polimorfismo.herancaEInterface.entities;
+package herancaEPolimorfismo.entities;
 
 //herança - classe mãe
 //A orientação a objetos veio para evitar a repetição de código por meio da
