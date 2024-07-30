@@ -52,4 +52,10 @@ public class Gerente extends Funcionario {
         return false;
     }
 
+    /*
+     * todas as classes herdam de object automaticamente
+     * classe mais genérica de todas para polimorfismo
+     * boa prática reescrever o método toString() e o equals()
+     */
+
 }

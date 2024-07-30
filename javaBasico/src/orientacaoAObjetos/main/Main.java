@@ -1,11 +1,22 @@
+//primeira coisa do arquivo é o package
 package orientacaoAObjetos.main;
 
-//como a classe está em outro pacote devemos importar
+//segunda coisa são os imports
+//como as classes que precisamos estão em outro pacote devemos importar
+//(caso não use o import podemos usar o full qualified name - FQN)
 import orientacaoAObjetos.classes.Cliente;
 import orientacaoAObjetos.classes.Conta;
 
+/**
+ * Isto é um javadoc, uma documentação de dev para dev
+ * @author Gabriel
+ */
 public class Main {
 
+    /**
+     * método main
+     * @param args
+     */
     public static void main(String[] args) {
         //instanciar um objeto é fazer a planta da casa se transformar em uma casa
         //fazemos isso no java com o new + o construtor da classe

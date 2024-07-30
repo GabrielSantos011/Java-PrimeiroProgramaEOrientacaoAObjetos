@@ -25,9 +25,10 @@ Para executarmos um código precisamos de uma classe que tenha o método main
 public class Conta {
 
     //moderadores de acesso:
-    //private - só é visto dentro da própria classe
-    //default (sem nada a frente) - só é visto dentro do Pacote
-    //public - visto de qualquer lugar
+    //public - visivel para todos em qualquer lugar
+    //private - visivel so na classe
+    //protected - visivel no pacote e publico para filhos (independente do pacote)
+    //package (quando n tem nada na frente) - visivel no pacote
 
     //ATRIBUTOS
 
