@@ -10,11 +10,13 @@ public class Gerente extends Funcionario {
     private String senha;
 
     //construtores classe filha
-    Gerente(String nome, String cpf, double salario, String senha) {
+    public Gerente(String nome, String cpf, double salario, String senha) {
         //chamada obrigatória do construtor da classe mãe
         super(nome, cpf, salario);
         this.senha = senha;
     }
+
+    public Gerente() {}
 
     //sobrescrita
     //temos a mesma assinatura de um método na classe mãe
