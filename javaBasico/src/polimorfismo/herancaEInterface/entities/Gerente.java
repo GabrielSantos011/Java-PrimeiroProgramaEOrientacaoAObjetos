@@ -9,6 +9,13 @@ public class Gerente extends Funcionario {
 
     private String senha;
 
+    //construtores classe filha
+    Gerente(String nome, String cpf, double salario, String senha) {
+        //chamada obrigatória do construtor da classe mãe
+        super(nome, cpf, salario);
+        this.senha = senha;
+    }
+
     //sobrescrita
     //temos a mesma assinatura de um método na classe mãe
     //geralmente usamos a notação @Override na linha logo acima da assinatura

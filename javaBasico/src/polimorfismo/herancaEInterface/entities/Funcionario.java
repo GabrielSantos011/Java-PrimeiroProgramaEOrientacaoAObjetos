@@ -14,6 +14,13 @@ public class Funcionario {
     private String cpf;
     private double salario;
 
+    //contrutor classe mãe
+    Funcionario(String nome, String cpf, double salario) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.salario = salario;
+    }
+
     public double getBonificacao() {
         return this.salario * 0.1;
     }
